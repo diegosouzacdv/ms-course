@@ -11,10 +11,10 @@ public class Payment implements Serializable{
 	
 	
 	private String name;
-	private Double dailyIncome;
-	private Integer days;
+	private Double dailyIncome = 0.0;
+	private Integer days = 0;
 	
-	private Payment() {
+	public Payment() {
 		
 	}
 
